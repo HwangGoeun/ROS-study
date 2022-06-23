@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="10_counter" type="timeCounter_publisher" name="timeCounter_publisher"/>
+	<node pkg="10_counter" type="timeCounter_subscriber" name="timeCounter_subscriber"/>
+	<node pkg="10_counter" type="count_subscriber" name="count_subscriber"/>
+</launch>
